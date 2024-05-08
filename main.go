@@ -44,5 +44,7 @@ func main() {
 		Handler: mux,
 	}
 
+	fmt.Printf("Starting server on port: %v", port)
+
 	srv.ListenAndServe()
 }
